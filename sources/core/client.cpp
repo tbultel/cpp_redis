@@ -24,6 +24,8 @@
 #include <cpp_redis/misc/error.hpp>
 #include <cpp_redis/misc/macro.hpp>
 
+#include <thread>
+
 namespace cpp_redis {
 
 #ifndef __CPP_REDIS_USE_CUSTOM_TCP_CLIENT
